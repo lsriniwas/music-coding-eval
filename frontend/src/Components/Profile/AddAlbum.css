@@ -1,0 +1,28 @@
+.new-music-wrapper{
+    width: 700px;
+    position: relative;
+    background-color: #fff;
+}
+.close{
+    position: absolute;
+    top:0;
+    right:0;
+    cursor: pointer;
+    transform: rotate(45deg);
+    font-size: 24px;
+}
+.header{
+    text-align: center;
+    background-image: url("https://i.imgur.com/A8syFCo.jpg");
+    background-position: center;
+}
+.new-album-details{
+    margin: 0px 0px 10px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.new-album-add-btn{
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}

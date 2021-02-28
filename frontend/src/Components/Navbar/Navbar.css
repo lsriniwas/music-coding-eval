@@ -1,0 +1,42 @@
+.navbar {
+    color: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px 10px 20px;
+    background: transparent;
+    transition: all ease 0.5s;
+}
+.navbar-left div{
+    height: 75px;
+    width: 75px;
+}
+.navbar-left-img img{
+    cursor: pointer;
+    height: 100% ;
+    width: 100% ;
+}
+
+.navbar-right{
+    display: flex; 
+}
+.navbar-right div:nth-child(2){
+margin-left: 10px;
+}
+.navbar-right div button{
+    outline: none;
+    padding: 5px;
+    width: 100px;
+    border: none;
+}
+.navbar .input-search input{
+    outline: none;
+    padding: 5px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+}   

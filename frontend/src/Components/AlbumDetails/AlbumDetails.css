@@ -1,0 +1,23 @@
+.root{
+    color:#fff !important;
+    display: grid;
+    place-items: center;
+    height: 88vh;
+}
+.album-wrapper{
+    margin-top: -100px;
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.5);
+    width: 500px;
+}
+.single-album-details{
+    padding: 0px 20px;
+    font-family: sans-serif;
+}
+
+.single-album-details > div{
+    display: flex;
+}
+
+.single-album-details > div >p {
+    text-align: center;
+}

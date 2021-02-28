@@ -1,0 +1,29 @@
+.content-wrapper{
+
+}
+.content-filter{
+    display: flex;
+    padding: 10px 50px 0px 13px;
+    margin-bottom: 30px;
+    justify-content: space-between
+}
+.select-radio-filter{
+    display: flex;
+    padding: 5px 10px;
+    justify-content: space-between;
+}
+.my-profile{
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #000;
+    font-family: sans-serif;
+
+}
+.select-sort{
+    margin-right: 20px;
+}
+.input-radio{
+    display: flex;
+}
